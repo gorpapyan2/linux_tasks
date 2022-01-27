@@ -1,0 +1,4 @@
+Shutdown -h now
+Halt
+Poweroff
+Telint 0
