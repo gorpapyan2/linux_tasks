@@ -13,5 +13,23 @@ root 10 [rcu_tasks_trace]
 ...............................
 
 
+ps -eo pid,user,command
+
+
+PID USER     COMMAND
+      1 root     /sbin/init splash
+      2 root     [kthreadd]
+      3 root     [rcu_gp]
+      4 root     [rcu_par_gp]
+      6 root     [kworker/0:0H-events_highpri]
+      8 root     [mm_percpu_wq]
+      9 root     [rcu_tasks_rude_]
+     10 root     [rcu_tasks_trace]
+
+...........................
+
+
+
+
 
 
